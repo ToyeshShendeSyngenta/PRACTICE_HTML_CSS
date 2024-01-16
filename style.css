@@ -1,0 +1,137 @@
+/* updated css */
+* {
+    margin: 0;
+    padding: 0;
+    Box-sizing:border-box    
+}
+.navbar {
+    background: #444444;
+    height: 50px;
+}
+
+.unorderedlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    list-style: none;
+}
+
+.unorderedlist li {
+    margin: 9px;
+}
+
+.unorderedlist a {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.box {
+    background-color: #71c4ea;
+    width: 100%;
+    height: 485px;
+}
+
+.middlepart {
+    margin-top: 64px;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+.texthow {
+    text-align: center;
+    color: #444444;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+.circles-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 110px;
+   
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    background-color: #efefef;
+    border-radius: 50%;
+    margin:30px 75px 20px 75px;
+}
+
+.textbox {
+    margin-left: 75px;
+    width: 140px; 
+}
+
+@media screen and (max-width: 400px) {
+    .circles-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.footer {
+    background-color: #ececec;
+    color: #ff8000;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: 0;
+
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin-left: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ff8000;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #444444;
+}
+
+@media screen and (max-width: 550px) {
+    .unorderedlist a {
+        font-size: 14px; 
+    }
+
+    .footer-links a {
+        text-decoration: none;
+        color: #ff8000;
+        font-size: 12px; 
+        transition: color 0.3s;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 433px) {
+  
+
+    .footer-links a {
+        text-decoration: none;
+        color: #ff8000;
+        font-size: 9px; 
+        transition: color 0.3s;
+        margin: 10px;
+    }
+}
+html{
+    Height:100%;
+}
