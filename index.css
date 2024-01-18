@@ -4,5 +4,14 @@
     background-color: red;
 }
 
-git init
-git add.
+/* git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/ToyeshShendeSyngenta/PRACTICE_HTML_CSS.git
+
+git push origin main */
+
+
+git .add 
+git commit -m "second commit"
+git push
